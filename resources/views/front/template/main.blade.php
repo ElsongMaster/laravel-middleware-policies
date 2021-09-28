@@ -9,8 +9,10 @@
     <title>Document</title>
 </head>
 <body>
-
+@include('front.partials.navBar')
    @yield('content') 
+@include('front.partials.footer')
+
    <script src="{{asset('js/app.js')}}"></script>
    <script src="{{asset('js/tailwind.js')}}"></script>
 </body>
